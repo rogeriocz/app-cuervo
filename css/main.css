@@ -23,6 +23,7 @@ margin-bottom: 0;
 {
 	color: white;
 	text-shadow: none;
+	font-size: 12px;
 }
 .navbar-personalizado>li>a:hover
 {
@@ -40,7 +41,7 @@ margin-bottom: 0;
 	
 }
 
-.tdo
+body
 {
 	
 	font-family: 'Open Sans', sans-serif;
@@ -59,14 +60,7 @@ margin-bottom: 0;
   	width: 100%;
 	margin: 0 auto;
 }*/
-.color1
-{
-	background-color: green;
-}
-.color2
-{
-	background-color: #33b5e5;
-}
+
 .color3
 {
 	background-color: #2C3E50;
@@ -89,7 +83,7 @@ h2
 	color: #dd6c06;
 	font-size: 30px;
 }
-ul, li 
+.app-lista,li
 {
 	color: #f0f0f0;
 	font-size: 30px;
