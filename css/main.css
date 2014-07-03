@@ -64,6 +64,7 @@ body
 .color3
 {
 	background-color: #2C3E50;
+	padding-top: 10px;
 	
 }
 /*.max
@@ -138,4 +139,37 @@ h2
 .app-principal
 {
 	background-color: #2C3E50;
+}
+
+.app-subcribete
+{
+
+	background-color: #dd6c06;
+	
+	font-size: 25px;
+	padding: 25px;
+	text-align: center;
+	color: white;
+	
+}
+.imagen-fondo
+{
+background: url('../img/teclado.jpg');
+max-width: 100%;
+max-height: 100%;
+padding: 50px;
+}
+.app-titulo
+{
+	color: white;
+font-size: 60px;
+font-family: 'Lobster', cursive;
+}
+.app-tex
+{
+	color: white;
+font-size: 30px;
+font-family: 'Lobster', cursive;
+padding: 15px;
+text-align: center;
 }

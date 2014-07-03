@@ -19,7 +19,7 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class="tdo">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -45,23 +45,6 @@
         </div>
       </div>
     </nav>
-
-<!--subcribirse-->
-<section>
-    <div class="container-fluid">
-    <div class="row">
-      <div class="imagen-fondo">
-        <p class="app-titulo">Grupo de usuarios linux<p>
-          <p class="app-titulo">Mina<p>
-        <p class="app-tex">Quieres unirte a nuestro grupo de usuario Linux en Minatitlan</p>
-      </div>
-      
-    
-    </div>
-  </div>
-</section>
-<!--subcribirse-->
-
 <section class="app-principal">
     <div class="container">
   <div class="row">
@@ -89,13 +72,13 @@
         </div>
     </div>
 
-  <div class="container">
+<div class="container">
       <div class="row">
-      <div class="col-xs-12 col-md-6 col-md-6 col-lg-6 color3 ">
+      <div class="col-xs-12 col-md-6 col-md-6 col-lg-6">
        
         <h1>Aprende Linux/ubuntu</h1>
         <h2>y cre una internet mejor</h2>
-        <ul>
+        <ul class="app-lista">
           <li>Instala LAMP</li>
           <li>Instala Owncloud</li>
           <li>Instala un NAS</li>
@@ -109,32 +92,29 @@
       </div>
     </div>
   </div>
-</section>
 
- 
-  <!--subcribirse-->
+  </section>
 <section>
-    <div class="container-fluid">
+  <div class="container">
     <div class="row">
-      
-
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 app-subcribete">
-     
-      <form class="form-inline app-subcribete">
-        <div class="form-group ">
-          <label for="correo" class="sr-only">E-mail</label>
-          <input type="email" class="form-control input-lg" id="" placeholder="Ingresa tu email ;)">
+      <div class="compartir">
+      <p>ayudanos a difundir Linux/Gnu, conpartenos en:</p>
+    </div>
+    <div>
+      <p>Quieres unirte a nuestro grupo de usuario Linux en Minatitlan</p>
+      <form>
+        <div class="form-group">
+          <label for="correo">E-mail</label>
+          <input type="email" class="form-control" id="" placeholder="Ingresa tu email ;)">
         </div>
-        <button class="btn btn-primary btn-sub">Subscribirme!</button>
-                
-
+        <button class="btn btn-primary">Subscribirme!</button>
         <p>Subscríbete y entérate de nuestras reuniones, prometemos no spammearte.</p>
       </form>
     </div>
     </div>
   </div>
 </section>
-<!--subcribirse-->
+
     <footer class="app-footer">
         
               <h5>Copyright © Rogeriocz</h5>
