@@ -19,12 +19,12 @@
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class="tdo">
+    <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
       
-    <nav class="navbar navbar-personalizado">
+    <nav class="navbar navbar-fixed-top navbar-personalizado">
       <div class="container">
 
         <div class="navbar-header">
@@ -40,44 +40,34 @@
           <li><a href="#">Inicio</a></li>
           <li><a href="#">Servicios</a></li>
           <li><a href="#">Clientes</a></li>
-          <li><a href="#">LOGIN</a></li>
+          <li data-toggle="modal" data-target="#miModal"><a href="#">LOGIN</a></li>
         </ul>
         </div>
       </div>
     </nav>
 
-<!--subcribirse-->
-<section>
-    <div class="container-fluid">
-    <div class="row">
-      <div class="imagen-fondo">
-        <p class="app-titulo">Grupo de usuarios linux<p>
-          <p class="app-titulo">Mina<p>
-        <p class="app-tex">Quieres unirte a nuestro grupo de usuario Linux en Minatitlan</p>
+<!--Login modal-->
+<div class="modal fade" id="miModal">
+  <div class="modal-dialog">
+    <div class="modal-content mod-dal">
+      <div class="modal-header">
+        <button class=" close " aria-hidden="true" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title ">Cuervo</h4>
       </div>
-      
-    
-    </div>
-  </div>
-</section>
-<!--subcribirse-->
-
-<section class="app-principal">
-    <div class="container">
-  <div class="row">
-        <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+      <div class="modal-body mod-dy">
+        
       <h1 class="app-titulo">Login</h1>
       <p class="app-desc">Entra o registrate con Facebook o Twitter</p>
       <div class="app-redes">
         <div class="app-sociales">
-          <div class="app-facebook col-xs-12 col-sm-6 colmd-6 col-lg-6">
+          <div class="app-facebook">
             <button class="btn btn-facebook btn-block">
               <span class="icon-facebook"></span>
               <span> Facebook </span>        
             </button>
           </div>
 
-          <div class="app-twitter col-xs-12 col-sm-6 colmd-6 col-lg-6">
+          <div class="app-twitter">
             <button class="btn btn-twitter btn-block">
               <span class="icon-twitter"></span>
               <span> Twitter </span>
@@ -86,8 +76,32 @@
           </div>
         
       </div>
-        </div>
+   
+      </div>
+      <div class=""></div>
+      
     </div>
+  </div>
+</div>
+<!--Final Login modal-->
+
+
+<section>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="imagen-fondo">
+          <p class="app-titulo">Grupo de usuarios linux<p>
+          <p class="app-titulo">Mina<p>
+          <p class="app-tex">Quieres unirte a nuestro grupo de usuario Linux en Minatitlan</p>
+      </div>    
+    </div>
+  </div>
+</section>
+
+
+
+<section class="app-principal">
+    
 
   <div class="container">
       <div class="row">
@@ -112,7 +126,7 @@
 </section>
 
  
-  <!--subcribirse-->
+  
 <section>
     <div class="container-fluid">
     <div class="row">
